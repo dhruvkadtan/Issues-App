@@ -1,0 +1,34 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "description": "On Clicking Delete, The application Creashes",
+      "severity": "Minor",
+      "status": "Open"
+    },
+    {
+      "id": 2,
+      "description": "The Heading Add is wrongly displayed as Edit",
+      "severity": "Major",
+      "status": "In Progress"
+    },
+    {
+      "id": 3,
+      "description": "The Payment Funtionality is Missing",
+      "severity": "Critical",
+      "status": "Closed"
+    },
+    {
+      "id": "RvBkS6FOOB",
+      "description": "testing",
+      "severity": "Minor",
+      "status": "In Progress"
+    },
+    {
+      "id": "KBw4isv10D",
+      "description": "testiing2",
+      "severity": "Critical",
+      "status": "Closed"
+    }
+  ]
+}

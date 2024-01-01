@@ -1,10 +1,95 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.App {
+  text-align:left;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.back {
+  background-color:darkgray;
+}
+
+.OverFlow {
+  overflow: hidden;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.nav  {
+  background-color: darkgray;
+}
+
+table {
+  border: 2px solid black;
+}
+  
+th {
+  border: 1px solid black;
+}
+  
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcfcfc;
+
+  
+}
+.Name {
+  font-size: 18px;
+
+  font-weight: bold;
+  border-color: white
+  ;
+}
+
+.navbar {
+  height: 60px;
+  position:sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: #282c34;
+
+}
+
+.nav-elements ul {
+  display:inline-flex;
+  justify-content: space-between;
+  list-style-type: none;
+  
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  
+}
+
+/*headings*/
+.h2 {
+  text-align: center;
+  font-weight: bolder;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
